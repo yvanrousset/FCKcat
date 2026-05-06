@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+statsmodels
+xgboost
+biopython
+rapidfuzz
+tqdm
+jupyter
+ipykernel
+pyarrow

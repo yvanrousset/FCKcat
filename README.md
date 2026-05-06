@@ -55,9 +55,9 @@ Notebooks are numbered in logical order:
 | Notebook | Description | Figures |
 |---|---|---|
 | `nb1_bias_analysis.ipynb` | Variance partitioning of kcat across enzyme groups using linear mixed-effects models | 1, S1 |
-| `nb2_model_predictions.ipynb` | FCKcat Δkcat predictions on all test pairs; collective absolute kcat estimator | 3, S5, S6 |
-| `nb3_model_comparison.ipynb` | Head-to-head comparison with DLKcat and EITLEM on unseen sequences | S2 |
-| `nb4_model_selection.ipynb` | Model selection and feature ablation experiments | — |
+| `nb2_model_predictions.ipynb` | FCKcat Δkcat predictions on all test pairs; collective absolute kcat estimator | 3, S4, S5, S6 |
+| `nb3_model_comparison.ipynb` | Head-to-head comparison with DLKcat and EITLEM on unseen sequences | 4, S2 |
+| `nb4_model_selection.ipynb` | Model selection and feature ablation experiments | S3 |
 
 ## Citation
 

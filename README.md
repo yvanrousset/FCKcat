@@ -101,10 +101,6 @@ If you use this repository, please cite:
 
 > Rousset Y., Kroll A., Lercher M.J. (2026). *Overcoming systematic data biases enables accurate prediction of enzyme k_cat fold-changes for computational protein design.* bioRxiv. https://doi.org/10.64898/2026.01.23.701068
 
-Please also cite the Zenodo data record:
-
-> Rousset, Y. (2026). *Data and model files for FCKcat: prediction of enzyme kcat fold-changes*. Zenodo. https://doi.org/10.5281/zenodo.20325541
-
 ## Contact
 
 For questions, please open an issue in this repository.

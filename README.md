@@ -1,5 +1,7 @@
 # FCKcat
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20325541.svg)](https://doi.org/10.5281/zenodo.20325541)
+
 This repository accompanies the manuscript:
 
 **Overcoming systematic data biases enables accurate prediction of enzyme k_cat fold-changes for computational protein design**
@@ -9,13 +11,15 @@ Yvan Rousset, Alexander Kroll, and Martin J. Lercher
 
 ## Status
 
-Code is available here. Data are **not yet publicly released** and will be deposited on **Zenodo upon submission** of the manuscript (link will be added here).
+Code is available in this repository. The data and model files required to reproduce the analyses are available on Zenodo:
 
-> To run the notebooks, download the data archive from Zenodo and place its contents in the `data/` folder.
+https://doi.org/10.5281/zenodo.20325541
+
+To run the notebooks, download `data.zip` from Zenodo and extract it into the repository root. This should create a `data/` folder with the required datasets, models, mappings, baseline predictions, and results.
 
 ## Repository structure
 
-```
+```text
 FCKcat/
 ├── notebooks/
 │   ├── nb1_bias_analysis.ipynb              # Variance partitioning (Figures 1, S1)
@@ -25,7 +29,7 @@ FCKcat/
 │   └── utils/
 │       ├── helpers.py                       # Shared plotting and preprocessing utilities
 │       └── CCB_plot_style_0v4.mplstyle      # Matplotlib style sheet
-├── data/                                    # Empty — download from Zenodo
+├── data/                                    # Created after extracting data.zip from Zenodo
 │   ├── datasets/                            # Train/test pair dataframes
 │   ├── models/                              # Trained FCKcat model (XGBoost)
 │   ├── mapping/                             # ESM2 embeddings and sequence index maps
@@ -46,7 +50,31 @@ pip install -r requirements.txt
 
 ### 2. Download the data
 
-Download the data archive from Zenodo *(link to be added)* and extract it into the `data/` folder.
+Download `data.zip` from Zenodo:
+
+https://doi.org/10.5281/zenodo.20325541
+
+Extract it into the root of this repository:
+
+```bash
+unzip data.zip
+```
+
+After extraction, the repository should contain:
+
+```text
+FCKcat/
+├── data/
+│   ├── datasets/
+│   ├── models/
+│   ├── mapping/
+│   ├── EITLEM_data/
+│   ├── DLKcat_data/
+│   └── results/
+├── notebooks/
+├── requirements.txt
+└── README.md
+```
 
 ### 3. Run the notebooks
 
@@ -59,13 +87,23 @@ Notebooks are numbered in logical order:
 | `nb3_model_comparison.ipynb` | Head-to-head comparison with DLKcat and EITLEM on unseen sequences | 4, S2 |
 | `nb4_model_selection.ipynb` | Model selection and feature ablation experiments | S3 |
 
+## Data availability
+
+The data and model files required to reproduce the analyses are available on Zenodo:
+
+> Rousset, Y. (2026). *Data and model files for FCKcat: prediction of enzyme kcat fold-changes*. Zenodo. https://doi.org/10.5281/zenodo.20325541
+
+The Zenodo archive contains the `data/` directory expected by the notebooks, including train/test dataframes, the trained FCKcat XGBoost model, ESM2 embeddings and mapping files, DLKcat and EITLEM baseline data, and aggregated evaluation results.
+
 ## Citation
 
 If you use this repository, please cite:
 
 > Rousset Y., Kroll A., Lercher M.J. (2026). *Overcoming systematic data biases enables accurate prediction of enzyme k_cat fold-changes for computational protein design.* bioRxiv. https://doi.org/10.64898/2026.01.23.701068
 
-The Zenodo data record will be linked here upon release.
+Please also cite the Zenodo data record:
+
+> Rousset, Y. (2026). *Data and model files for FCKcat: prediction of enzyme kcat fold-changes*. Zenodo. https://doi.org/10.5281/zenodo.20325541
 
 ## Contact
 

@@ -5,7 +5,9 @@
 This repository accompanies the manuscript:
 
 **Overcoming systematic data biases enables accurate prediction of enzyme k_cat fold-changes for computational protein design**
+
 Yvan Rousset, Alexander Kroll, and Martin J. Lercher  
+
 <!-- *bioRxiv* 2026 — https://doi.org/10.64898/2026.01.23.701068 -->
 
 ## Status

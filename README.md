@@ -1,3 +1,7 @@
+> [!NOTE]
+> A final predictor will be added to this repository upon publication of the manuscript.
+
+
 # FCKcat
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20325541.svg)](https://doi.org/10.5281/zenodo.20325541)
@@ -11,9 +15,6 @@ Yvan Rousset, Alexander Kroll, and Martin J. Lercher
 <!-- *bioRxiv* 2026 — https://doi.org/10.64898/2026.01.23.701068 -->
 
 ## Status
-
-> [!NOTE]
-> A final predictor will be added to this repository upon publication of the manuscript.
 
 Code is available in this repository. The data and model files required to reproduce the analyses are available on Zenodo:
 

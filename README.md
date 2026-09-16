@@ -12,6 +12,9 @@ Yvan Rousset, Alexander Kroll, and Martin J. Lercher
 
 ## Status
 
+> [!NOTE]
+> A final predictor will be added to this repository upon publication of the manuscript.
+
 Code is available in this repository. The data and model files required to reproduce the analyses are available on Zenodo:
 
 https://doi.org/10.5281/zenodo.20325541

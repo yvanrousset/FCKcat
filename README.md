@@ -1,5 +1,5 @@
-> [!NOTE]
-> A final predictor will be added to this repository upon publication of the manuscript.
+> [!IMPORTANT]
+> A final predictor (trained on the full dataset) will be made available in this repository upon publication of the manuscript.
 
 
 # FCKcat
